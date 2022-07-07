@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Righteous', cursive;
+}
+
+body {
+  background-color: gray;
+}
+
+.displayed {
+  display: block !important;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  font-size: 9rem;
+}
+
+#dice-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player {
+  height: 40vh;
+  width: 40vw;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.image {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.result1 {
+  font-size: 3rem;
+  display: none;
+  padding: 3rem;
+}
+
+.result2 {
+  font-size: 3rem;
+  display: none;
+  padding: 3rem;
+}
+
+.result-draw {
+  font-size: 3rem;
+  display: none;
+  padding: 3rem;
+}
